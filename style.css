@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#FCF5ED;
+    font-family: 'Geologica', sans-serif;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+
+}
+
+
+
+img{
+    border-radius: 15px;
+}
+
+ h1{
+    font-size: 45px;
+    color: #CE5A67;
+    
+}
+
+h2{
+    font-size: 30px;
+    color: #f4bf96;
+    
+}
+
+h3{
+    font-size: 25px;
+    color: #1F1717;
+}
+ 
+p{
+    font-size: 15px ;
+    color: #1F1717;
+    
+}
+
+
+   
+   
+
+
+.box{
+    display: flex;
+    gap: 20%;
+}
+
+.content{
+
+    text-align: left;
+    margin-top: 10%;
+    margin-left:9%;
+}
+.photo{
+    margin-top : 10%;
+     margin-left : 9%;
+}
+
+img{
+    max-width: 500px;
+    height: 400px;
+}
+.buttons{
+   
+    display: inline-block;
+    
+}
+
+
+@media (max-width:480px){
+
+   .social{
+    display:none;
+   }
+    .name{
+        font-size: large;
+        margin: auto;
+    }
+    .box{
+        flex-direction: column-reverse;  
+    }
+    img{
+        height: 300px;
+    }
+    .photo{
+      margin: auto;
+      margin-top: 10%;
+    }
+    .content{
+        text-align:center;
+        margin: auto;
+
+    }
+    .buttons{
+        display: block;
+    }
+    .contactme{
+        width: 60%;
+    }
+    .button2{
+        width: 60%;
+    }
+
+    h1{
+        font-size: 40px;
+        color: #CE5A67;
+    }
+    
+    h2{
+        font-size: 30px;
+        color: #f4bf96;
+    }
+    
+    h3{
+        font-size: 15px;
+        color: #1F1717;
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+.name{
+   background: linear-gradient(#CE5A67,#f4bf96);
+   -webkit-background-clip: text ;
+   color: transparent;
+   text-align: left;
+   font-size: 30px ;
+   margin-top: auto;
+   margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contactme{
+     background: linear-gradient(to right,#f4bf96,#CE5A67);
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration:wavy;
+     display: inline-block;
+     font-size: 16px;
+     margin-left: 20px;
+     
+     cursor: pointer;
+     border-radius: 5px;
+    
+}
+ .contactme:hover{
+    background: linear-gradient(#CE5A67,#f4bf96);
+ }
+ .button2{
+    background: linear-gradient(to right,#f4bf96,#CE5A67);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:wavy;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.button2:hover{
+   background: linear-gradient(#CE5A67,#f4bf96);
+}
+
